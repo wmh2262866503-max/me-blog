@@ -1,0 +1,7 @@
+{
+  "title": "FastAPI 入门指南",
+  "slug": "fastapi-guide",
+  "summary": "快速上手 FastAPI 框架",
+  "content": "# FastAPI 入门\n\nFastAPI 是一个现代、快速的 Python Web 框架。\n\n## 优点\n\n- 高性能\n- 自动生成文档\n- 类型提示支持\n\n## 快速开始\n\n```python\nfrom fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get(\"/\")\ndef read_root():\n    return {\"Hello\": \"World\"}\n```",
+  "tags": ["Python", "FastAPI", "后端"]
+}
